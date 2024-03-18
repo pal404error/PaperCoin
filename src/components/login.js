@@ -26,7 +26,7 @@ const Login = (e) => {
     // Signed in 
     const user = userCredential.user;
     console.log("Success");
-    window.location.replace('http://localhost:5173/');
+    window.alert("LOGGED IN");
     // ...
   })
   .catch((error) => {
